@@ -1,5 +1,5 @@
 # tfetch
-My own fetch program (tubular fetch). Busted ass code, busted ass instructions. Join my server and/or dm me for help.
+My own fetch program (tubular fetch). Busted ass code, busted ass instructions. You can customize it directly through the tfetch.py file (ascii and such).
 
 # Installation
 This is a bit tricky, so stay with me here.

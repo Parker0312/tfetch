@@ -4,6 +4,7 @@ My own fetch program (tubular fetch). Busted ass code, busted ass instructions. 
 # Installation
 This is a bit tricky, so stay with me here.
 
+- **Obviously, make sure you have python 3.14 or above installed.**
 - make a folder in your home directory called tfetch and move tfetch.py into it
 - in your terminal do ```cd tfetch``` to move into the tfetch directory
 - from the tfetch directory, run ```python -m venv .venv```

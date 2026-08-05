@@ -1,5 +1,5 @@
 # tfetch
-My own fetch program. (tubular-fetch)
+My own fetch program (tubular fetch). Busted ass code, busted ass instructions. Join my server and/or dm me for help.
 
 # Installation
 This is a bit tricky, so stay with me here.
@@ -9,9 +9,6 @@ This is a bit tricky, so stay with me here.
 - from the tfetch directory, run ```python -m venv .venv```
 - then run ```source .venv/bin/activate```
 - then install the necessary libraries that tfetch needs with ```pip install psutil``` and ```pip install py-cpuinfo```
-
-**almost done stay with me**
-
 - make a file called **tfetch** (no file extension) in your tfetch folder
 - within the **tfetch** file, add:
 ```
@@ -19,9 +16,8 @@ This is a bit tricky, so stay with me here.
 source ~/tfetch/.venv/bin/activate
 exec python ~/tfetch/tfetch.py "$@"
 ```
-
 - then run ```chmod +x tfetch```
 - and finally, ```sudo mv tfetch /usr/local/bin/tfetch```
 
 i prolly messed something up so if you need help join my dc server
-https://discord.gg/cnEKvAB83r
+[https://discord.gg/cnEKvAB83r]

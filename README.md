@@ -1,6 +1,7 @@
 # tfetch
-My own fetch program, tubular fetch.
+My own fetch program, __Tubular-Fetch.__
 
 # Installation
-- Get the tfetch binary file and open the terminal and run ```sudo mv path/to/fetch /usr/local/bin/```
-- Build from source if you'd prefer and then follow the same steps
+- Make sure to have Cargo and Rustc installed
+- Navigate to the source directory and run `cargo build -r`
+- Get the binary file and run `sudo mv path/to/tfetch /usr/local/bin/`

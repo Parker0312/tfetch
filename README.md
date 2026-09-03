@@ -1,4 +1,4 @@
-# tfetch
+# tfetch (Pride flags update!!!)
 My own fetch program, *"Tubular-Fetch".*
 
 # Installation

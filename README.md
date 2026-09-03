@@ -1,5 +1,5 @@
 # tfetch
-My own fetch program, __Tubular-Fetch.__
+My own fetch program, *"Tubular-Fetch".*
 
 # Installation
 - Make sure to have Cargo and Rustc installed

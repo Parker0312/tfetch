@@ -1,5 +1,5 @@
-# tfetch (Pride flags update!!!)
-My own fetch program, *"Tubular-Fetch".*
+# tfetch
+My own fetch program, *"Tubular-Fetch".* Features pride flags and a bunny.
 
 # Installation
 - Make sure to have Cargo and Rustc installed

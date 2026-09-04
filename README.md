@@ -1,3 +1,7 @@
+# DISCLAIMER
+**This GitHub repository is no longer being updated. Please use the CodeBerg repository for further updates.**
+https://codeberg.org/tman/tfetch
+
 # tfetch
 My own fetch program, *"Tubular-Fetch".* Features pride flags and a bunny.
 

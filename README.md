@@ -1,9 +1,5 @@
-# DISCLAIMER
-**This GitHub repository is no longer being updated. Please use the CodeBerg repository for further updates.**
-https://codeberg.org/tman/tfetch
-
 # tfetch
-My own fetch program, *"Tubular-Fetch".* Features pride flags and a bunny.
+My own fetch program written in Rust. Short for "Tubular-Fetch". Features pride flags and a bunny.
 
 # Installation
 - Make sure to have Cargo and Rustc installed

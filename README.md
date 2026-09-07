@@ -5,3 +5,5 @@ Short for "tubular fetch", tfetch is my first attempt at a genuine project in Ru
 1. Make sure to have Cargo and Rust installed
 1. Run `cargo build -r` from within the folder containing everything
 1. Run `sudo mv [path to the binary] /usr/local/bin/`
+
+<img width="556" height="257" alt="preview" src="https://github.com/user-attachments/assets/bd63b8aa-1599-4e61-9a9e-c8e85135d54d" />

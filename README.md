@@ -1,9 +1,6 @@
 # tfetch
-Short for "tubular fetch", tfetch is my first attempt at a genuine project in Rust. It features ASCII art of a bunny and pride flags; For example, `tfetch --nonbinary`. It's only configurable through the source code, so have fun trying to read my code. Feel free to request any changes or more flags you would like to see in there.
-
-# Installation
-1. Make sure to have Cargo and Rust installed
-1. Run `cargo build -r` from within the folder containing everything
-1. Run `sudo mv [path to the binary] /usr/local/bin/`
-
-<img width="556" height="257" alt="preview" src="https://github.com/user-attachments/assets/bd63b8aa-1599-4e61-9a9e-c8e85135d54d" />
+A simple fetch program written in Python (dw its not too slow)
+# Install
+- Activate the virtual environment with `source .venv/bin/activate`
+- Build with Pyinstaller with `pyinstaller --onefile main.py`
+<img width="598" height="151" alt="image" src="https://github.com/user-attachments/assets/11636a21-d337-4c37-ae49-85be1933478d" />

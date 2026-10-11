@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tfetch"
+version = "0.1.0"
+description = "tubular fetch"
+readme = "README.md"
+authors = []
+requires-python = ">=3.14"
+dependencies = [
+    "distro",
+    "psutil"
+]
+
+[project.scripts]
+tfetch = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]

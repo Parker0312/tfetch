@@ -31,24 +31,29 @@
         in
         with pkgs.python3Packages;
         {
-          packages.default = (
-            buildPythonPackage {
-              pname = "tfetch";
-              version = "0.1.0";
-              pyproject = true;
 
-              src = ./.;
+          packages = {
+            tfetch = (
+              buildPythonPackage {
+                pname = "tfetch";
+                version = "0.1.0";
+                pyproject = true;
 
-              build-system = [
-                setuptools
-              ];
+                src = ./.;
 
-              dependencies = [
-                distro
-                psutil
-              ];
-            }
-          );
+                build-system = [
+                  setuptools
+                ];
+
+                dependencies = [
+                  distro
+                  psutil
+                ];
+              }
+            );
+
+            default = self.packages.${system}.tfetch;
+          };
 
           devShells.default = pkgs.mkShell {
             buildInputs = with pkgs; [
